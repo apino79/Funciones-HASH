@@ -1,5 +1,5 @@
 # Funciones-HASH
-#### Actividad de Laboratorio: Cálculo y verificación de funciones HASH
+#### Actividad: Cálculo y verificación de funciones HASH
 ## Objetivo: 
 Comprender el funcionamiento de las funciones HASH mediante la generación y comparación de valores HASH usando herramientas de línea de comandos en Kali Linux y herramientas online.
 
@@ -62,19 +62,3 @@ Por ejemplo, puedes descargar un archivo de prueba desde:
 `wget https://ash-speed.hetzner.com/100MB.bin`
 
 Una ves descargado, subelo al portal indicado en el paso anterior y obten el HASH
-
-Supón que el valor esperado de SHA-256 fuera:
-
-`29c1b58304c8a9064b747e3f313304a75b88fbebfedafb3275006367fe202df8`
-
-Verifica el valor, revisando en la linea de comando en Kali:
-
-`sha256sum 100MB.bin`
-
-¿El valor HASH coincide? ¿Qué significaría si no coincidiera?
-
-## Cierre y reflexión
-
-- ¿Qué aprendiste sobre la sensibilidad de las funciones HASH?
-- ¿Por qué son fundamentales para verificar integridad en ciberseguridad?
-
